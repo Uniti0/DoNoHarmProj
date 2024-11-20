@@ -7,6 +7,7 @@ using Prism.Mvvm;
 using Prism.Commands;
 using System.Security.Permissions;
 using System.Windows;
+using DoNoHarm.Data;
 
 namespace DoNoHarm.ViewModel
 {
@@ -23,6 +24,31 @@ namespace DoNoHarm.ViewModel
         public DelegateCommand Authorizate { get => _authorizate; set => _authorizate = value; }
 
         private void AuthorizateRealiztion()
+        {
+            if (String.IsNullOrWhiteSpace(Login) || String.IsNullOrWhiteSpace(Password))
+            {
+                MessageBox.Show("Поля не заполнены или заполнены не правильно", "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }    
+            if (CheckAcconutInDB(Login, Password))
+            {
+                AuthorizateComplite();
+            }
+            else
+            {
+                MessageBox.Show($"Неправильный логин или пароль", "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private bool CheckAcconutInDB(string login, string password)
+        {
+            DoNoHarmDB connection = new DoNoHarmDB();
+            if (connection.users.Where(i => i.login == login && i.password == password).FirstOrDefault() != null)
+                 return true;
+            else return false;
+        }
+
+        private void AuthorizateComplite()
         {
             new MainWindow().Show();
             window.Close();

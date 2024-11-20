@@ -5,7 +5,7 @@
              StartupUri="View/LoginWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
+            <!--<ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
@@ -17,7 +17,15 @@
             <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="#ffc445"/>
             <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="Black"/>
             <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="#ffc445"/>
-            <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="White"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="White"/>-->
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Styles/Label.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Styles/Colors.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Styles/TextBox.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Styles/Button.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

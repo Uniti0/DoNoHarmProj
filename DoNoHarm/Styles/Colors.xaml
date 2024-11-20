@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--<Color x:Key="MainTextColor">#fffffe</Color>
+    <Color x:Key="MainBlackColor">#050505</Color>
+    <Color x:Key="ParagraphColor">#a7a9be</Color>
+    <Color x:Key="AccentColorMain">#ff8906</Color>
+    <Color x:Key="AccentColorLight">#FFBE76</Color>
+    <Color x:Key="AccentColorDark">#BF7D33</Color>
+
+
+
+    <SolidColorBrush x:Key="MainTextBrush" Color="{StaticResource MainTextColor}"/>
+    <SolidColorBrush x:Key="ParagraphBrush" Color="{StaticResource ParagraphColor}"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColorMain}"/>
+    <SolidColorBrush x:Key="AccentBrushLight" Color="{StaticResource AccentColorLight}"/>
+    <SolidColorBrush x:Key="AccentBrushDark" Color="{StaticResource AccentColorDark}"/>
+    <SolidColorBrush x:Key="MainBlackBrush" Color="{StaticResource MainBlackColor}"/>-->
+
+    <Color x:Key="MainBlackColor">#050505</Color>
+    <Color x:Key="MainLightGreenColor">#105058</Color>
+    <Color x:Key="MainLightBlueColor">#1B9AAA</Color>
+    <Color x:Key="MainBoneColor">#DDDBCB</Color>
+    <Color x:Key="MainEggShellColor">#E9E6D7</Color>
+    <Color x:Key="MainLightEggShellColor">#EFECDD</Color>
+    <Color x:Key="MainOldLaceColor">#F5F1E3</Color>
+    <Color x:Key="MainWhiteColor">#FFFFFF</Color>
+
+
+    <SolidColorBrush x:Key="TransparentBrush" Color="Transparent"/>
+    <SolidColorBrush x:Key="MainTextBlackBrush" Color="{StaticResource MainBlackColor}"/>
+    <SolidColorBrush x:Key="MainTextWhiteBrush" Color="{StaticResource MainWhiteColor}"/>
+    <SolidColorBrush x:Key="MainAccentBrush" Color="{StaticResource MainLightGreenColor}"/>
+    <SolidColorBrush x:Key="MainAccentLightBrush" Color="{StaticResource MainLightBlueColor}"/>
+    <SolidColorBrush x:Key="MainWhiteBrush" Color="{StaticResource MainWhiteColor}"/>
+    <SolidColorBrush x:Key="WhiteBrush_0" Color="{StaticResource MainBoneColor}"/>
+    <SolidColorBrush x:Key="WhiteBrush_1" Color="{StaticResource MainEggShellColor}"/>
+    <SolidColorBrush x:Key="WhiteBrush_2" Color="{StaticResource MainLightEggShellColor}"/>
+    <SolidColorBrush x:Key="WhiteBrush_3" Color="{StaticResource MainOldLaceColor}"/>
+
+
+
+</ResourceDictionary>

@@ -5,15 +5,50 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DoNoHarm.View"
         mc:Ignorable="d"
-        Title="LoginWindow" Height="350" Width="300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
-    <Grid>
-        <Label Content="Авторизация" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="10" FontSize="20"/>
-        <Button HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="35" Width="250" Margin="0 0 0 30" Content="Вход" Command="{Binding Authorizate}"/>
-        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="250" Margin="0 0 0 30">
-            <Label Content="Логин" FontSize="15"/>
-            <TextBox FontSize="20"/>
-            <Label Content="Пароль" FontSize="15"/>
-            <TextBox FontSize="20"/>
-        </StackPanel>
-    </Grid>
+        Title="LoginWindow" 
+        Height="400" 
+        Width="350" 
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" 
+        Background="LightGray">
+    <Border Background="{DynamicResource MainWhiteBrush}"
+            Width="300"
+            Height="300"
+            CornerRadius="20">
+        <Grid>
+            <Label Content="Авторизация" 
+                   Style="{StaticResource BlackLabel}" 
+                   VerticalAlignment="Top" 
+                   HorizontalAlignment="Center" 
+                   Margin="10"/>
+
+            <Button Style="{StaticResource ButtonLogin}" 
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Bottom"
+                    Height="35" 
+                    Width="250" 
+                    Margin="0 0 0 30"
+                    Content="Вход" 
+                    Command="{Binding Authorizate}"/>
+
+            <StackPanel VerticalAlignment="Center" 
+                        HorizontalAlignment="Center" 
+                        Width="250">
+
+                <Label Content="Логин" 
+                       Style="{StaticResource BlackLabel}"/>
+
+                <TextBox Style="{StaticResource TextBoxMain}" 
+                         Text="{Binding Login}"/>
+
+                <Label Content="Пароль" 
+                       Style="{StaticResource BlackLabel}" />
+
+                <TextBox Style="{StaticResource TextBoxMain}" 
+                         Text="{Binding Password}"/>
+
+            </StackPanel>
+        </Grid>
+        
+    </Border>
 </Window>

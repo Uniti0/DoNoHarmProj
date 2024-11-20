@@ -1,0 +1,26 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    
+    <Style x:Key="BlackLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="pack://application:,,,/Font/ModerusticLight.ttf"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Foreground" Value="{DynamicResource MainTextBlackBrush}"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="WhiteLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="pack://application:,,,/Font/ModerusticRegular/ttf"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Foreground" Value="{DynamicResource MainWhiteBrush}"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+    <Style x:Key="LightGrayLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="pack://application:,,,/Font/ModerusticLight.ttf"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Foreground" Value="Gray"/>
+        <Setter Property="SnapsToDevicePixels" Value="True"/>
+    </Style>
+
+</ResourceDictionary>

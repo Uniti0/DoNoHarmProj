@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище user19Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="clients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="type" Type="int" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="char" MaxLength="64" Nullable="false" />
+    <Property Name="surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="patronymic" Type="nvarchar" MaxLength="50" />
+    <Property Name="birthdate" Type="date" />
+    <Property Name="passport_series" Type="int" />
+    <Property Name="passport_number" Type="int" />
+    <Property Name="phone" Type="char" MaxLength="16" Nullable="false" />
+    <Property Name="email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="company_name" Type="varchar" MaxLength="50" />
+    <Property Name="company_address" Type="varchar" MaxLength="100" />
+    <Property Name="inn" Type="int" Nullable="false" />
+    <Property Name="account" Type="int" Nullable="false" />
+    <Property Name="bik" Type="int" Nullable="false" />
+    <Property Name="hidden" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="employee_services">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="service_id" Type="int" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="invoices">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="client_id" Type="int" Nullable="false" />
+    <Property Name="accountant_id" Type="int" Nullable="false" />
+    <Property Name="order_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="login_attempts">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="int" Nullable="false" />
+    <Property Name="created_at" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="order_services">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="service_id" Type="int" Nullable="false" />
+    <Property Name="order_id" Type="int" Nullable="false" />
+    <Property Name="status" Type="smallint" Nullable="false" />
+    <Property Name="utilizer_id" Type="int" />
+    <Property Name="started_at" Type="datetime" />
+    <Property Name="finished_at" Type="datetime" />
+  </EntityType>
+  <EntityType Name="orders">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="created_at" Type="datetime" Nullable="false" />
+    <Property Name="client_id" Type="int" Nullable="false" />
+    <Property Name="hidden" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="roles">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="services">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="price" Type="money" Nullable="false" />
+    <Property Name="code" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="hidden" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="role" Type="int" Nullable="false" />
+    <Property Name="login" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="64" Nullable="false" />
+    <Property Name="hidden" Type="bit" Nullable="false" />
+    <Property Name="surname" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="patronymic" Type="varchar" MaxLength="50" />
+    <Property Name="image_path" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="utilizers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_employee_services_services">
+    <End Role="services" Type="Self.services" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="employee_services" Type="Self.employee_services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="services">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="employee_services">
+        <PropertyRef Name="service_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_employee_services_users">
+    <End Role="users" Type="Self.users" Multiplicity="1" />
+    <End Role="employee_services" Type="Self.employee_services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="employee_services">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_invoices_clients">
+    <End Role="clients" Type="Self.clients" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="invoices" Type="Self.invoices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="invoices">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_invoices_orders">
+    <End Role="orders" Type="Self.orders" Multiplicity="1" />
+    <End Role="invoices" Type="Self.invoices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="orders">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="invoices">
+        <PropertyRef Name="order_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_invoices_users">
+    <End Role="users" Type="Self.users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="invoices" Type="Self.invoices" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="invoices">
+        <PropertyRef Name="accountant_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_login_attempts_users">
+    <End Role="users" Type="Self.users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="login_attempts" Type="Self.login_attempts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="login_attempts">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_order_services_orders">
+    <End Role="orders" Type="Self.orders" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="order_services" Type="Self.order_services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="orders">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order_services">
+        <PropertyRef Name="order_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_order_services_services">
+    <End Role="services" Type="Self.services" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="order_services" Type="Self.order_services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="services">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order_services">
+        <PropertyRef Name="service_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_order_services_utilizers">
+    <End Role="utilizers" Type="Self.utilizers" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="order_services" Type="Self.order_services" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="utilizers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="order_services">
+        <PropertyRef Name="utilizer_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_orders_clients">
+    <End Role="clients" Type="Self.clients" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="orders" Type="Self.orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="clients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="orders">
+        <PropertyRef Name="client_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_users_roles">
+    <End Role="roles" Type="Self.roles" Multiplicity="1" />
+    <End Role="users" Type="Self.users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="roles">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="users">
+        <PropertyRef Name="role" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище user19ModelContainer">
+    <EntitySet Name="clients" EntityType="Self.clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="employee_services" EntityType="Self.employee_services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="invoices" EntityType="Self.invoices" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="login_attempts" EntityType="Self.login_attempts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="order_services" EntityType="Self.order_services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="orders" EntityType="Self.orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="roles" EntityType="Self.roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="services" EntityType="Self.services" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="utilizers" EntityType="Self.utilizers" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_employee_services_services" Association="Self.FK_employee_services_services">
+      <End Role="services" EntitySet="services" />
+      <End Role="employee_services" EntitySet="employee_services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_employee_services_users" Association="Self.FK_employee_services_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="employee_services" EntitySet="employee_services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_invoices_clients" Association="Self.FK_invoices_clients">
+      <End Role="clients" EntitySet="clients" />
+      <End Role="invoices" EntitySet="invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_invoices_orders" Association="Self.FK_invoices_orders">
+      <End Role="orders" EntitySet="orders" />
+      <End Role="invoices" EntitySet="invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_invoices_users" Association="Self.FK_invoices_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="invoices" EntitySet="invoices" />
+    </AssociationSet>
+    <AssociationSet Name="FK_login_attempts_users" Association="Self.FK_login_attempts_users">
+      <End Role="users" EntitySet="users" />
+      <End Role="login_attempts" EntitySet="login_attempts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_order_services_orders" Association="Self.FK_order_services_orders">
+      <End Role="orders" EntitySet="orders" />
+      <End Role="order_services" EntitySet="order_services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_order_services_services" Association="Self.FK_order_services_services">
+      <End Role="services" EntitySet="services" />
+      <End Role="order_services" EntitySet="order_services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_order_services_utilizers" Association="Self.FK_order_services_utilizers">
+      <End Role="utilizers" EntitySet="utilizers" />
+      <End Role="order_services" EntitySet="order_services" />
+    </AssociationSet>
+    <AssociationSet Name="FK_orders_clients" Association="Self.FK_orders_clients">
+      <End Role="clients" EntitySet="clients" />
+      <End Role="orders" EntitySet="orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_users_roles" Association="Self.FK_users_roles">
+      <End Role="roles" EntitySet="roles" />
+      <End Role="users" EntitySet="users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
