@@ -24,6 +24,8 @@
                 <ResourceDictionary Source="pack://application:,,,/Styles/Colors.xaml"/>
                 <ResourceDictionary Source="pack://application:,,,/Styles/TextBox.xaml"/>
                 <ResourceDictionary Source="pack://application:,,,/Styles/Button.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/Styles/RadioButton.xaml"/>
+
 
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>

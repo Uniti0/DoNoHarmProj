@@ -13,12 +13,6 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="TextBox">
-
-                    
-                    
-                    
-                    
-                    
                     <Grid>
                         <Border CornerRadius="15"
                                 x:Name="backBorder">
@@ -53,9 +47,6 @@
                                Width="{TemplateBinding Width}"/>
                     </Grid>
                     <ControlTemplate.Triggers>
-
-                        
-
                         <EventTrigger RoutedEvent="Border.MouseEnter" 
                                       SourceName="border">
                             <BeginStoryboard>
@@ -65,7 +56,6 @@
                                                     From="{StaticResource MainWhiteColor}"
                                                     To="{StaticResource MainLightBlueColor}"
                                                     Duration="0:0:0:0.2"/>
-                                    <DoubleAnimation/>
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
@@ -81,9 +71,6 @@
                                 </Storyboard>
                             </BeginStoryboard>
                         </EventTrigger>
-
-                        
-                        
                     </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
