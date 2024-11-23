@@ -27,6 +27,9 @@
                 <RadioButton Margin="0 -1 0 0" GroupName="Navigation" Content="Клиенты" />
             </StackPanel>
         </Border>
-        
+        <!--
+        "Вадим Крут"
+        - Игорь
+        -->
     </Grid>
 </Window>
