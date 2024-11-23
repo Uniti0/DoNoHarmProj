@@ -1,41 +1,36 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-    <Style TargetType="RadioButton" 
+    <Style TargetType="{x:Type RadioButton}"
+           BasedOn="{StaticResource {x:Type ToggleButton}}"
            x:Name="RadioButtonPlate">
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="RadioButton">
                     <Grid>
-                        <Border x:Name="borderBack"
-                                Width="200"
-                                Height="40">
-                            <Border.Background>
-                                <SolidColorBrush x:Name="borderBackGround"
-                                                 Color="{DynamicResource MainTextWhiteBrush}"/>
-                            </Border.Background>
-
+                        <Border Width="150"
+                                Height="40"
+                                Background="{TemplateBinding Background}">
+                            <Label HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"   
+                                   Style="{StaticResource BlackLabel}"
+                                   Content="{TemplateBinding Content}"/>
                         </Border>
-                        <Label Style="{StaticResource BlackLabel}"
-                               Content="{TemplateBinding Content}"/>
-
                     </Grid>
-                    <ControlTemplate.Triggers>
-                        <EventTrigger RoutedEvent="RadioButton." 
-                                      SourceName="borderBack">
-                            <BeginStoryboard>
-                                <Storyboard>
-                                    <ColorAnimation Storyboard.TargetName="borderBackGround"
-                                                    Storyboard.TargetProperty="Color"
-                                                    From="{StaticResource }"/>
-                                </Storyboard>
-                            </BeginStoryboard>                            
-                        </EventTrigger>
-                    </ControlTemplate.Triggers>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>
-        <EventSetter 
+
+        <Setter Property="Background" Value="{DynamicResource MainWhiteBrush}"/>
+        
+        <Style.Triggers>
+            <Trigger Property="IsChecked" Value="True">
+                <Setter Property="Background" Value="{DynamicResource WhiteBrush_1}"/>
+            </Trigger>
+            <Trigger Property="IsChecked" Value="False">
+                <Setter Property="Background" Value="{DynamicResource MainWhiteBrush}"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
     
 </ResourceDictionary>

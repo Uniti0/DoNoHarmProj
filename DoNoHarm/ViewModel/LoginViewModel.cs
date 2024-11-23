@@ -8,6 +8,9 @@ using Prism.Commands;
 using System.Security.Permissions;
 using System.Windows;
 using DoNoHarm.Data;
+using System.Data.Entity.Core.Common.EntitySql;
+using System.Security.Policy;
+using System.Data.Entity;
 
 namespace DoNoHarm.ViewModel
 {
@@ -23,14 +26,14 @@ namespace DoNoHarm.ViewModel
 
         public DelegateCommand Authorizate { get => _authorizate; set => _authorizate = value; }
 
-        private void AuthorizateRealiztion()
+        private async void AuthorizateRealiztion()
         {
             if (String.IsNullOrWhiteSpace(Login) || String.IsNullOrWhiteSpace(Password))
             {
                 MessageBox.Show("Поля не заполнены или заполнены не правильно", "Ошибка авторизации", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
-            }    
-            if (CheckAcconutInDB(Login, Password))
+            }
+            if (await CheckAcconutInDBAsync())
             {
                 AuthorizateComplite();
             }
@@ -40,12 +43,12 @@ namespace DoNoHarm.ViewModel
             }
         }
 
-        private bool CheckAcconutInDB(string login, string password)
+        private async Task<bool> CheckAcconutInDBAsync()
         {
-            DoNoHarmDB connection = new DoNoHarmDB();
-            if (connection.users.Where(i => i.login == login && i.password == password).FirstOrDefault() != null)
-                 return true;
-            else return false;
+            if (await DoNoHarmDB.GetContext().users.Where(i => i.login == Login && i.password == Password).FirstOrDefaultAsync() != null)
+                return true;
+            else
+                return false;
         }
 
         private void AuthorizateComplite()

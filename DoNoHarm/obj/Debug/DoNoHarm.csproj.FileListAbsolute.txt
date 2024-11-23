@@ -212,3 +212,4 @@ C:\Users\user\Desktop\Git\DoNoHarmProj\DoNoHarm\obj\Debug\DoNoHarm.csproj.CopyCo
 C:\Users\user\Desktop\Git\DoNoHarmProj\DoNoHarm\obj\Debug\DoNoHarm.exe
 C:\Users\user\Desktop\Git\DoNoHarmProj\DoNoHarm\obj\Debug\DoNoHarm.pdb
 C:\Users\user\Desktop\Git\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\RadioButton.baml
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\RadioButton.baml
