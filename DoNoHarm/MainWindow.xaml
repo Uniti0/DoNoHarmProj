@@ -6,30 +6,29 @@
         xmlns:local="clr-namespace:DoNoHarm"
         mc:Ignorable="d"
         Background="{DynamicResource MainWhiteBrush}"
-        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Не навреди" Height="450" Width="800" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="70*"/>
-            <RowDefinition Height="360*"/>
-        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="20*"/>
-            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="650"/>
         </Grid.ColumnDefinitions>
 
-        <Frame Grid.Column="1" Grid.Row="1">
-            
-        </Frame>
+        <Frame Grid.Column="1" Grid.Row="1" x:Name="MainFrame">
 
-        <Border Grid.Row="1">
-            <StackPanel>
-                <RadioButton Margin="0 -1 0 0" GroupName="Navigation" Content="Услуги" />
-                <RadioButton Margin="0 -1 0 0" GroupName="Navigation" Content="Клиенты" />
-            </StackPanel>
-        </Border>
-        <!--
-        "Вадим Крут"
-        - Игорь
-        -->
+        </Frame>
+        <Grid Grid.Column="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="380"/>
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="1">
+                <StackPanel>
+                    <RadioButton GroupName="Navigation" Content="Услуги" />
+                    <RadioButton GroupName="Navigation" Content="Клиенты" />
+                </StackPanel>
+            </Border>
+        </Grid>
+
     </Grid>
 </Window>

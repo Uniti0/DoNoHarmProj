@@ -1,5 +1,4 @@
-﻿using DoNoHarm.Model;
-using DoNoHarm.ViewModel;
+﻿using DoNoHarm.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,18 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DoNoHarm
+namespace DoNoHarm.View.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ServicePage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ServicePage : Page
     {
-        public MainWindow()
+        public ServicePage()
         {
             InitializeComponent();
-            Navigation.SetFrame(MainFrame);
-            DataContext = new MainWindowViewModel();
+            DataContext = new SerivcePageViewModel();
         }
     }
 }

@@ -145,9 +145,15 @@
     <Compile Include="Data\utilizers.cs">
       <DependentUpon>NoHarmData.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\Navigation.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\MainWindowViewModel.cs" />
+    <Compile Include="ViewModel\SerivcePageViewModel.cs" />
     <Compile Include="View\LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pages\ServicePage.xaml.cs">
+      <DependentUpon>ServicePage.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -182,6 +188,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Pages\ServicePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -222,10 +232,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="View\Pages\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Data\NoHarmData.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>

@@ -15,7 +15,7 @@ namespace DoNoHarm.Data
     
     public partial class DoNoHarmDB : DbContext
     {
-        public static DoNoHarmDB _context;
+        private static DoNoHarmDB _context;
         public DoNoHarmDB()
             : base("name=DoNoHarmDB")
         {

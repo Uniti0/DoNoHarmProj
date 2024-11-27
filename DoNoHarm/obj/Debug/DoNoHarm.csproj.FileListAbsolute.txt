@@ -213,3 +213,10 @@ C:\Users\user\Desktop\Git\DoNoHarmProj\DoNoHarm\obj\Debug\DoNoHarm.exe
 C:\Users\user\Desktop\Git\DoNoHarmProj\DoNoHarm\obj\Debug\DoNoHarm.pdb
 C:\Users\user\Desktop\Git\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\RadioButton.baml
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\RadioButton.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\Button.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\Colors.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\Label.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\RadioButton.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\TextBox.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\ServicePage.g.cs
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\ServicePage.baml
