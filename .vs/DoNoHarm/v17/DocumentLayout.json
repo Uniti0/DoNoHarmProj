@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|c:\\users\\igors\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\donoharmgit\\donoharmproj\\donoharmproj\\donoharm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|c:\\users\\igors\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\donoharmgit\\donoharmproj\\donoharmproj\\donoharm\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|c:\\users\\igors\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\donoharmgit\\donoharmproj\\donoharmproj\\donoharm\\view\\pages\\servicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\view\\pages\\servicepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\viewmodel\\serivcepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\viewmodel\\serivcepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\view\\pages\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\view\\pages\\userpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\styles\\radiobutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\styles\\radiobutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|c:\\users\\igors\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\donoharmgit\\donoharmproj\\donoharmproj\\donoharm\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\view\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\styles\\textbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\styles\\textbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|c:\\users\\igors\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\donoharmgit\\donoharmproj\\donoharmproj\\donoharm\\styles\\label.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\styles\\label.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\donoharm\\model\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D46FC2E-44EE-4BCB-A82E-3461FDFB7B6C}|DoNoHarm\\DoNoHarm.csproj|solutionrelative:donoharm\\model\\navigation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Label.xaml",
-              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\Label.xaml",
-              "RelativeDocumentMoniker": "DoNoHarm\\Styles\\Label.xaml",
-              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\Label.xaml",
-              "RelativeToolTip": "DoNoHarm\\Styles\\Label.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-08T15:22:04.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Button.xaml",
-              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\Button.xaml",
-              "RelativeDocumentMoniker": "DoNoHarm\\Styles\\Button.xaml",
-              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\Button.xaml",
-              "RelativeToolTip": "DoNoHarm\\Styles\\Button.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-06T10:30:47.526Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TextBox.xaml",
-              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\TextBox.xaml",
-              "RelativeDocumentMoniker": "DoNoHarm\\Styles\\TextBox.xaml",
-              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\TextBox.xaml",
-              "RelativeToolTip": "DoNoHarm\\Styles\\TextBox.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-06T10:29:59.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "DoNoHarm\\Styles\\Colors.xaml",
-              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\Colors.xaml",
-              "RelativeToolTip": "DoNoHarm\\Styles\\Colors.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-06T08:05:53.188Z",
+              "DocumentIndex": 0,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "DoNoHarm\\ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "DoNoHarm\\ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:55:16.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RadioButton.xaml",
-              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\RadioButton.xaml",
-              "RelativeDocumentMoniker": "DoNoHarm\\Styles\\RadioButton.xaml",
-              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Styles\\RadioButton.xaml",
-              "RelativeToolTip": "DoNoHarm\\Styles\\RadioButton.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-21T11:11:42.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "DoNoHarm\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "DoNoHarm\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAqwEMAAAAAAAAA",
+              "Title": "SerivcePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\ViewModel\\SerivcePageViewModel.cs",
+              "RelativeDocumentMoniker": "DoNoHarm\\ViewModel\\SerivcePageViewModel.cs",
+              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\ViewModel\\SerivcePageViewModel.cs",
+              "RelativeToolTip": "DoNoHarm\\ViewModel\\SerivcePageViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:13:11.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T10:36:02.852Z"
             }
           ]
         },
         {
-          "DockedWidth": 163,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 147,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\View\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "DoNoHarm\\View\\LoginWindow.xaml",
-              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\View\\LoginWindow.xaml",
-              "RelativeToolTip": "DoNoHarm\\View\\LoginWindow.xaml",
+              "DocumentIndex": 1,
+              "Title": "ServicePage.xaml",
+              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\View\\Pages\\ServicePage.xaml",
+              "RelativeDocumentMoniker": "DoNoHarm\\View\\Pages\\ServicePage.xaml",
+              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\View\\Pages\\ServicePage.xaml",
+              "RelativeToolTip": "DoNoHarm\\View\\Pages\\ServicePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-22T14:05:08.284Z",
+              "WhenOpened": "2024-11-29T10:35:58.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "Navigation.cs",
+              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Model\\Navigation.cs",
+              "RelativeDocumentMoniker": "DoNoHarm\\Model\\Navigation.cs",
+              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\Model\\Navigation.cs",
+              "RelativeToolTip": "DoNoHarm\\Model\\Navigation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T14:55:08.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DoNoHarm\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\MainWindow.xaml",
               "RelativeToolTip": "DoNoHarm\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-21T11:13:00.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T11:13:00.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserPage.xaml",
+              "DocumentMoniker": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\View\\Pages\\UserPage.xaml",
+              "RelativeDocumentMoniker": "DoNoHarm\\View\\Pages\\UserPage.xaml",
+              "ToolTip": "C:\\Users\\igors\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\DoNoHarmGit\\DoNoHarmProj\\DoNoHarmProj\\DoNoHarm\\View\\Pages\\UserPage.xaml",
+              "RelativeToolTip": "DoNoHarm\\View\\Pages\\UserPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-29T11:02:11.601Z"
             }
           ]
         }

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\
 DoNoHarm
 none
 false
 DEBUG;TRACE
-C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\App.xaml
-8-2050988849
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\App.xaml
+9-1057217224
 2716811221
-251942171242
-30-992446797
-MainWindow.xaml;Styles\Button.xaml;Styles\Colors.xaml;Styles\Label.xaml;Styles\RadioButton.xaml;Styles\TextBox.xaml;View\LoginWindow.xaml;View\Pages\ServicePage.xaml;
+261312319937
+28405210279
+MainWindow.xaml;Styles\Button.xaml;Styles\Colors.xaml;Styles\Label.xaml;Styles\RadioButton.xaml;Styles\TextBox.xaml;View\LoginWindow.xaml;View\Pages\ServicePage.xaml;View\Pages\UserPage.xaml;
 
-False
+True
 

@@ -103,8 +103,6 @@ C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHar
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\DoNoHarm.pdb
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.dll
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignColors.dll
-C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignThemes.Wpf.dll
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Xaml.Behaviors.dll
@@ -116,9 +114,6 @@ C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHar
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.xml
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignColors.pdb
-C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignThemes.Wpf.pdb
-C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Xaml.Behaviors.pdb
@@ -220,3 +215,8 @@ C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\Styl
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\Styles\TextBox.baml
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\ServicePage.g.cs
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\ServicePage.baml
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\ServicePage.g.cs
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\ServicePage.baml
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\UserPage.g.cs
+C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\UserPage.baml

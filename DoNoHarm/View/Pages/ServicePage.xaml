@@ -5,7 +5,6 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:DoNoHarm.View.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
       Background="{DynamicResource MainWhiteBrush}"
       Title="Услуги" Height="450" Width="650">
 
@@ -17,7 +16,7 @@
                     <Button Margin="2" Width="30" Height="30"/>
                 </StackPanel>
             </Border>
-            <DataGrid Height="400" AutoGenerateColumns="False" ItemsSource="{Binding dgSourse}">
+            <DataGrid Margin="0 0 20 0" Height="350" AutoGenerateColumns="False" ItemsSource="{Binding dgSourse}">
                 <DataGrid.Columns>
                     <DataGridTextColumn Binding="{Binding code}" Header="Код" Width="*"/>
                     <DataGridTextColumn Binding="{Binding name}" Header="Наименование" Width="*"/>
