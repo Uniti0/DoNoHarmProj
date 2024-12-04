@@ -140,6 +140,7 @@
       <DependentUpon>NoHarmData.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\Navigation.cs" />
+    <Compile Include="ViewModel\AddEditViewModel.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="ViewModel\SerivcePageViewModel.cs" />
@@ -151,6 +152,9 @@
     </Compile>
     <Compile Include="View\Pages\UserPage.xaml.cs">
       <DependentUpon>UserPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Windows\AddEdit.xaml.cs">
+      <DependentUpon>AddEdit.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -193,6 +197,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Pages\UserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Windows\AddEdit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -245,6 +253,7 @@
       <DependentUpon>NoHarmData.edmx</DependentUpon>
       <LastGenOutput>NoHarmData.cs</LastGenOutput>
     </Content>
+    <Resource Include="img\add.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

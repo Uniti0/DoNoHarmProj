@@ -50,8 +50,6 @@ C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\DoNo
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\DoNoHarm.pdb
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.dll
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignColors.dll
-C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignThemes.Wpf.dll
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Xaml.Behaviors.dll
@@ -63,9 +61,6 @@ C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\Syst
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.xml
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignColors.pdb
-C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignThemes.Wpf.pdb
-C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\Microsoft.Xaml.Behaviors.pdb
@@ -220,3 +215,8 @@ C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHar
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\ServicePage.baml
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\UserPage.g.cs
 C:\Users\igors\OneDrive\Рабочий стол\DoNoHarmGit\DoNoHarmProj\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\UserPage.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\UserPage.g.cs
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Pages\UserPage.baml
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Windows\AddEdit.g.cs
+C:\Users\user\Desktop\Новая папка\DoNoHarmProj\DoNoHarm\obj\Debug\View\Windows\AddEdit.baml

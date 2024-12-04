@@ -12,11 +12,13 @@
         <StackPanel Orientation="Vertical">
             <Border Height="50">
                 <StackPanel Orientation="Horizontal">
-                    <Button Margin="2" Width="30" Height="30"/>
-                    <Button Margin="2" Width="30" Height="30"/>
+                    <Button Command="{Binding AddNewService}" Background="Transparent" BorderThickness="0" Margin="2" Width="30" Height="30">
+                        <Image Source="/img/add.png"/>
+                    </Button>
+                    <Button Command="{Binding EditService}" Margin="2" Width="30" Height="30"/>
                 </StackPanel>
             </Border>
-            <DataGrid Margin="0 0 20 0" Height="350" AutoGenerateColumns="False" ItemsSource="{Binding dgSourse}">
+            <DataGrid Margin="0 0 20 0" Height="350" AutoGenerateColumns="False" ItemsSource="{Binding dgSourse}" SelectedItem="{Binding SelectedService}">
                 <DataGrid.Columns>
                     <DataGridTextColumn Binding="{Binding code}" Header="Код" Width="*"/>
                     <DataGridTextColumn Binding="{Binding name}" Header="Наименование" Width="*"/>
