@@ -97,6 +97,7 @@
     <Compile Include="Data\clients.cs">
       <DependentUpon>NoHarmData.tt</DependentUpon>
     </Compile>
+    <Compile Include="Data\DoHarmEx.cs" />
     <Compile Include="Data\employee_services.cs">
       <DependentUpon>NoHarmData.tt</DependentUpon>
     </Compile>
@@ -141,17 +142,18 @@
     </Compile>
     <Compile Include="Model\Navigation.cs" />
     <Compile Include="ViewModel\AddEditViewModel.cs" />
+    <Compile Include="ViewModel\ClientsPageViewModel.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
     <Compile Include="ViewModel\SerivcePageViewModel.cs" />
     <Compile Include="View\LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Pages\ClientsPage.xaml.cs">
+      <DependentUpon>ClientsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Pages\ServicePage.xaml.cs">
       <DependentUpon>ServicePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Pages\UserPage.xaml.cs">
-      <DependentUpon>UserPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Windows\AddEdit.xaml.cs">
       <DependentUpon>AddEdit.xaml</DependentUpon>
@@ -192,11 +194,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Pages\ServicePage.xaml">
+    <Page Include="View\Pages\ClientsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\Pages\UserPage.xaml">
+    <Page Include="View\Pages\ServicePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -253,6 +255,8 @@
       <DependentUpon>NoHarmData.edmx</DependentUpon>
       <LastGenOutput>NoHarmData.cs</LastGenOutput>
     </Content>
+    <Resource Include="img\remove.png" />
+    <Resource Include="img\edit.png" />
     <Resource Include="img\add.png" />
   </ItemGroup>
   <ItemGroup>

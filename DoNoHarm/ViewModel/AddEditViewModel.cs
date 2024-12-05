@@ -3,6 +3,7 @@ using Prism.Commands;
 using Prism.Mvvm;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Text;
@@ -34,6 +35,7 @@ namespace DoNoHarm.ViewModel
                 Price = services.price.ToString();
                 EditService = services;
                 Title = "Изменение";
+                ItsEdit = true;
             }
             else
             {
@@ -46,11 +48,12 @@ namespace DoNoHarm.ViewModel
         {
             if (ItsEdit)
             {
-                EditService.name = Name;
-                EditService.code = Code;
-                EditService.price = decimal.Parse(Price);
+                var currentService = await DoNoHarmDB.GetContext().services.Where(i => i.id == EditService.id).FirstOrDefaultAsync();
+                currentService.name = Name;
+                currentService.code = Code;
+                currentService.price = decimal.Parse(Price);
                 await DoNoHarmDB.GetContext().SaveChangesAsync();
-                MessageBox.Show("Пользователь успешно изменён", "Успешный успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Услуга успешно изменена", "Успешный успех", MessageBoxButton.OK, MessageBoxImage.Information);
                 window.Close();
             }
             else
@@ -61,7 +64,7 @@ namespace DoNoHarm.ViewModel
                 newService.price = Decimal.Parse(Price);
                 DoNoHarmDB.GetContext().services.Add(newService);
                 await DoNoHarmDB.GetContext().SaveChangesAsync();
-                MessageBox.Show("Пользователь успешно добавлен", "Успешный успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Услуга успешно добавлена", "Успешный успех", MessageBoxButton.OK, MessageBoxImage.Information);
                 window.Close();
             }
         }

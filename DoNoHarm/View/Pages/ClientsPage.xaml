@@ -1,11 +1,13 @@
-﻿<Page x:Class="DoNoHarm.View.Pages.ServicePage"
+﻿<Page x:Class="DoNoHarm.View.Pages.ClientsPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:DoNoHarm.View.Pages"
-      mc:Ignorable="d"
-      Title="Услуги" Height="450" Width="650">
+      mc:Ignorable="d" 
+      d:DesignHeight="460" d:DesignWidth="650"
+      Background="White"
+      Title="ClientsPage">
 
     <Grid>
         <StackPanel Orientation="Vertical">
@@ -22,13 +24,11 @@
                     </Button>
                 </StackPanel>
             </Border>
-            <DataGrid IsReadOnly="True" Margin="0 0 20 0" Height="350" AutoGenerateColumns="False" ItemsSource="{Binding dgSource}" SelectedItem="{Binding SelectedService}">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Binding="{Binding code}" Header="Код" Width="*"/>
-                    <DataGridTextColumn Binding="{Binding name}" Header="Наименование" Width="*"/>
-                    <DataGridTextColumn Binding="{Binding price}" Header="Цена" Width="*"/>
-                </DataGrid.Columns>
-            </DataGrid>
+            <ListView>
+                <ListView.View>
+                    
+                </ListView.View>
+            </ListView>
         </StackPanel>
     </Grid>
 </Page>

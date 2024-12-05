@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace DoNoHarm.View.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для UserPage.xaml
+    /// Логика взаимодействия для ClientsPage.xaml
     /// </summary>
-    public partial class UserPage : Page
+    public partial class ClientsPage : Page
     {
-        public UserPage()
+        public ClientsPage()
         {
             InitializeComponent();
         }

@@ -15,18 +15,9 @@ namespace DoNoHarm.Data
     
     public partial class DoNoHarmDB : DbContext
     {
-        private static DoNoHarmDB _context;
         public DoNoHarmDB()
             : base("name=DoNoHarmDB")
         {
-        }
-
-        public static DoNoHarmDB GetContext()
-        {
-            if (_context == null)
-                _context = new DoNoHarmDB();
-
-            return _context;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
