@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DoNoHarm.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,7 @@ namespace DoNoHarm.View.Pages
         public ClientsPage()
         {
             InitializeComponent();
+            DataContext = new ClientsPageViewModel();
         }
     }
 }

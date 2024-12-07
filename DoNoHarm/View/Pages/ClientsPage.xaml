@@ -13,21 +13,32 @@
         <StackPanel Orientation="Vertical">
             <Border Height="50">
                 <StackPanel Orientation="Horizontal">
-                    <Button Command="{Binding AddNewService}" Background="Transparent" BorderThickness="0" Margin="2" Width="30" Height="30">
+                    <Button Command="{Binding AddNewClients}" Background="Transparent" BorderThickness="0" Margin="2" Width="30" Height="30">
                         <Image Source="/img/add.png"/>
                     </Button>
-                    <Button Command="{Binding EditService}" Background="Transparent" BorderThickness="0" Margin="2" Width="30" Height="30">
+                    <Button Command="{Binding EditClients}" Background="Transparent" BorderThickness="0" Margin="2" Width="30" Height="30">
                         <Image Source="/img/edit.png"/>
                     </Button>
-                    <Button Command="{Binding DeleteService}" Background="Transparent" BorderThickness="0" Margin="2" Width="30" Height="30">
+                    <Button Command="{Binding DeleteClients}" Background="Transparent" BorderThickness="0" Margin="2" Width="30" Height="30">
                         <Image Source="/img/remove.png"/>
                     </Button>
                 </StackPanel>
             </Border>
-            <ListView>
-                <ListView.View>
-                    
-                </ListView.View>
+            <ListView ItemsSource="{Binding lvSourse}">
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
             </ListView>
         </StackPanel>
     </Grid>

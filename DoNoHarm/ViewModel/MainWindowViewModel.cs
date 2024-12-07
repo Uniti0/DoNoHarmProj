@@ -15,28 +15,28 @@ namespace DoNoHarm.ViewModel
     {
 
         private Page ServicePage;
-        private Page UserPage;
+        private Page ClientPage;
 
 
         public DelegateCommand navigateService { get; set; }
-        public DelegateCommand navigateUsers { get; set; }
+        public DelegateCommand NavigateClient { get; set; }
 
         public MainWindowViewModel()
         {
             navigateService = new DelegateCommand(NavigateService);
-            navigateUsers = new DelegateCommand(NavigateUsers);
+            NavigateClient = new DelegateCommand(NavigateClientRealization);
         }
 
 
-        private void NavigateUsers()
+        private void NavigateClientRealization()
         {
-            if (Navigation.ActivePage != UserPage || UserPage == null)
+            if (Navigation.ActivePage != ClientPage || ClientPage == null)
             {
-                UserPage = new UserPage();
-                Navigation.Navigate(UserPage);
-            } else if (Navigation.ActivePage != UserPage || UserPage != null)
+                ClientPage = new ClientsPage();
+                Navigation.Navigate(ClientPage);
+            } else if (Navigation.ActivePage != ClientPage || ClientPage != null)
             {
-                Navigation.Navigate(UserPage);
+                Navigation.Navigate(ClientPage);
             }
         }
 

@@ -24,7 +24,7 @@
 
             <Border Grid.Row="1">
                 <StackPanel>
-                    <RadioButton Command="{Binding navigateUsers}" GroupName="Navigation" Content="Клиенты" />
+                    <RadioButton Command="{Binding NavigateClient}" GroupName="Navigation" Content="Клиенты" />
                     <RadioButton Command="{Binding navigateService}" GroupName="Navigation" Content="Услуги" />
                 </StackPanel>
             </Border>
